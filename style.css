@@ -1,59 +1,59 @@
 body {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   position: relative;
 }
 
 * {
   box-sizing: border-box;
- }
+}
 
-a{
+a {
   color: rgb(255, 255, 255);
- }
+}
 
- a:hover {
+a:hover {
   text-decoration: underline;
   color: rgba(255, 255, 255, 0.741);
- }
+}
 
- .header {
-   position: absolute;
-   width: 100%;
-   display: flex;
-   padding: 0 10%;
-   background-color: rgb(15, 82, 48);
-   padding-top: 20px;
- }
+.header {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  padding: 0 10%;
+  background-color: rgb(15, 82, 48);
+  padding-top: 20px;
+}
 
- .menu__left {
-   margin-right: auto;
- }
+.menu__left {
+  margin-right: auto;
+}
 
- .menu__right {
-   margin-left: auto;
- }
+.menu__right {
+  margin-left: auto;
+}
 
- .menu__list {
-   height: 50%;
-   display: flex;
-   list-style: none;
-   margin: 0;
-   padding: 0;
-   align-items: center;
-   justify-content: center;
- }
+.menu__list {
+  height: 50%;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
 
- .menu__item {
-   margin-right: 20px;
- }
+.menu__item {
+  margin-right: 20px;
+}
 
- .menu__link {
-   text-decoration: none;
- }
+.menu__link {
+  text-decoration: none;
+}
 
- /* section main */
+/* section main */
 
- .main__title {
+.main__title {
   background-color: green;
   height: 40vh;
   background-size: cover;
@@ -66,8 +66,8 @@ a{
 }
 
 .main__title__text {
-  text-shadow: rgb(0, 0, 0) 5px 5px 0, rgb(0, 0, 0) 5px 5px 0, 
-                 rgb(0, 0, 0) 5px 5px 0, rgb(0, 0, 0) 5px 5px 0;
+  text-shadow: rgb(0, 0, 0) 5px 5px 0, rgb(0, 0, 0) 5px 5px 0,
+    rgb(0, 0, 0) 5px 5px 0, rgb(0, 0, 0) 5px 5px 0;
 }
 
 .main_description {
@@ -158,11 +158,11 @@ a{
 /* footer */
 
 .footer {
-   display: flex;
-   padding: 0 10%;
-   background-color: rgb(152, 181, 171);
-   align-items: center;
-   justify-content:center;
+  display: flex;
+  padding: 0 10%;
+  background-color: rgb(152, 181, 171);
+  align-items: center;
+  justify-content: center;
 }
 
 .footer__menu {
@@ -172,19 +172,19 @@ a{
 
 
 .footer__list {
-   height: 100%;
-   display: flex;
-   list-style: none;
-   margin: 0;
-   padding: 0;
-   align-items: center;
+  height: 100%;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
 }
 
 .footer__item {
   padding: 30px;
   padding-left: 2em;
   padding-right: 1em;
-} 
+}
 
 .footer__item__two {
   display: flex;
@@ -192,7 +192,7 @@ a{
   width: 100%;
   align-items: center;
   justify-content: center;
-} 
+}
 
 .footer__link {
   color: #000;

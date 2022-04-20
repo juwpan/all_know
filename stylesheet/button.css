@@ -1,27 +1,32 @@
 .button__subtitle {
-  border: 5px outset rgba(199, 194, 194, 0.354);
-  border-radius: 6px;
-  padding: 0.1em;
-  width: 230px;
-  height: 68px;
-  background-color: rgb(40, 171, 93);
-  text-decoration: none;
   align-items: center;
-  justify-content: center;
+  appearance: none;
+  border: 0px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: rgb(22, 182, 113);
+  box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  width: 177px;
+  height: 56px;
+  transition: all 150ms ease-in-out 0s;
+  text-decoration: none;
   margin: auto;
   margin-bottom: 5em;
 }
 
-.button__description_text:hover {
-  color: rebeccapurple
+.button__subtitle:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(148, 226, 203, 0.798);
+  box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px, rgb(195 231 202) 0px 0px 0px 3px;
 }
 
 
 .button__description_text {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  line-height: 1em;
-  font-size: 20px;
   text-align: center;
+  justify-content: center;
 }
 
 .button__link {

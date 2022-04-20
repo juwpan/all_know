@@ -26,6 +26,13 @@
 }
 
 .img {
+  width: 200px;
   margin: 2em;
+}
+
+.size__icons {
+  vertical-align: bottom;
+  width: 24px;
+  height: 24px;
 }
 

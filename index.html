@@ -17,12 +17,14 @@
   <link rel="stylesheet" href="stylesheet/column.css">
   <link rel="stylesheet" href="stylesheet/text.css">
   <link rel="stylesheet" href="stylesheet/img.css">
+
+  <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="parallax.js-1.5.0/parallax.min.js"></script>
 </head>
 
 <body>
 
   <div class="page">
-
     <header class="header">
       <nav class="menu__left">
         <ul class="menu__list">
@@ -35,27 +37,38 @@
 
       <nav class="menu__right">
         <ul class="menu__list">
+          <li class="menu__item">
+            <img src="icons/phone.png" alt="телефон" class="size__icons">
+            <a href="#" class="menu__link">
+              <span class="phone">+7&nbsp;987&nbsp;476&nbsp;43&nbsp;23</span>
+            </a>
+          </li>
           <li class="menu__item"><a href="#" class="menu__link">
-              <img src="icons/phone.png" alt="телефон" width="24" height="24"><span
-                class="phone">+7&nbsp;987&nbsp;476&nbsp;43&nbsp;23</span></a></li>
-          <li class="menu__item"><a href="#" class="menu__link">
-              <img src="images/vk-64x64.png" alt="vk" width="24" height="24"></a></li>
-          <li class="menu__item"><a href="#" class="menu__link">
-              <img src="images/whatsapp-64x64.png" alt="watsap" width="24" height="24"></a></li>
-          <li class="menu__item"><a href="#" class="menu__link">
-              <img src="images/icons8-корзина-64.png" alt="корзина" width="24" height="24"></a></li>
+              <img src="icons/vk.png" alt="vk" class="size__icons">
+            </a></li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              <img src="icons/w.png" alt="watsap" class="size__icons">
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+            <img src="icons/корзина.png" alt="корзина" class="size__icons"></a>
+          </li>
         </ul>
       </nav>
 
     </header>
 
-    <section class="main__title">
+
+    <section class="main__title" data-parallax="scroll" data-image-src="images/книги.jpg">
       <h1 class="main__title__text">Все Знай</h1>
     </section>
 
+
     <section class="main_description">
-      <h2 class="main__description_text">Знание – сила. Сила – в правде.</h2>
-      <p class="main__description_text">Проект «ВСЕЗНАЙ» – это книги о политике, истории и экономике,
+      <h2 class="main__description_text">Знание &#8211; сила. Сила 	&#8211; в правде.</h2>
+      <p class="main__description_text">Проект 	&#171;ВСЕЗНАЙ&#187; &#8211; это книги о политике, истории и экономике,
         о философии и психологии, о развитии личности и здоровом образе жизни. Мы предлагаем
         фундаментальные знания и редкую информацию, которые помогают формировать мышление, видеть
         исторические закономерности, понимать суть происходящих вокруг процессов, воспитывать себя
@@ -63,28 +76,28 @@
     </section>
 
     <div class="button__subtitle">
-      <h2 class="button__description_text"><a href="#" class="button__link">Ассортимент</a></h2>
+      <h2 class="button__description_text">Ассортимент</h2>
     </div>
 
     <section class="columns">
       <div class="column__left">
-        <div class="signature__left">
+        <figure class="signature__left">
           <figcaption>
             <p class="text__center__title__book">Джордж Оруэлл</p>
             <h3 class="text__center__title__book">&laquo;1984&raquo;</h3>
           </figcaption>
-          <img src="images/1984.jpg" alt="1984" class="img" width="200">
-        </div>
-        <p class="text__description__column">Своеобразный антипод второй великой антиутопии XX века - "О дивный новый
+          <img src="images/1984.jpg" alt="1984" class="img">
+        </figure>
+        <p class="text__description__column">Своеобразный антипод второй великой антиутопии XX века &#8211; "О дивный новый
           мир" Олдоса Хаксли.
-          Что, в сущности, страшнее: доведенное до абсурда "общество потребления" - или доведенное до
+          Что, в сущности, страшнее: доведенное до абсурда "общество потребления" &#8211; или доведенное до
           абсолюта "общество идеи"? По Оруэллу, нет и не может быть ничего ужаснее тотальной
           несвободы...</p>
-        <p class="text__description__column">Главный герой — Уинстон Смит — живёт в Лондоне,
+        <p class="text__description__column">Главный герой 	&#8212; Уинстон Смит 	&#8212; живёт в Лондоне,
           работает в Министерстве правды и является членом внешней партии. Он не разделяет
           партийные лозунги и идеологию и в глубине души сильно сомневается в партии,
           окружающей действительности и вообще во всём том, в чём только можно сомневаться.
-          Чтобы «выпустить пар» и не совершить какой-нибудь безрассудный поступок, ведёт дневник,
+          Чтобы 	&#171;выпустить пар&#187; и не совершить какой &#8211;нибудь безрассудный поступок, ведёт дневник,
           в котором старается излагать все свои сомнения. На людях же притворяется приверженцем
           партийных идей. Однако опасается, что девушка Джулия, работающая в том же министерстве,
           шпионит за ним и хочет разоблачить его. В то же время полагает, что высокопоставленный
@@ -93,78 +106,77 @@
       </div>
 
       <div class="column__right">
-        <div class="signature__right">
+        <figure class="signature__right">
           <figcaption>
             <p class="text__center__title__book">Олдос Хаксли</p>
             <h3 class="text__center__title__book">&laquo;О дивный новый мир&raquo;</h3>
           </figcaption>
-          <img src="images/world.jpg" alt="О дивный новый мир" class="img" width="200">
-        </div>
+          <img src="images/world.jpg" alt="О дивный новый мир" class="img">
+        </figure>
         <p class="text__description__column">Антиутопический сатирический роман английского
-          писателя Олдоса Хаксли,опубликованный в 1932 году.</p>
-        <p class="text__description__column">Действие романа разворачивается в Лондоне далёкого
+          писателя Олдоса Хаксли,опубликованный в 1932 году.Действие романа разворачивается в Лондоне далёкого
           будущего (в 26 веке нашейэры,а именно в 2540 году. Люди на всей Земле живут в едином
-          «прогрессирующем»
-          государстве, где возведены в основу следующие ценности: беззаботность (работа
+          «прогрессирующем»государстве, где возведены в основу следующие ценности: беззаботность (работа
           не принята во внимание по причине естественного желания ей заниматься), сексуальная
-          свобода и потребление. Отсчитывается новое летоисчисление — Эра Т — с появления Форда
+          свобода и потребление. Отсчитывается новое летоисчисление 	&#8212; Эра Т &#8212; с появления Форда
           Т. Потребление возведено в культ, символом потребительского бога выступает Генри Форд,
           а вместо крестного знамения люди «осеняют себя знаком Т».</p>
       </div>
+
       <div class="column__left">
-        <div class="signature__left">
+        <figure class="signature__left">
           <figcaption>
             <p class="text__center__title__book">Джордж Оруэлл</p>
             <h3 class="text__center__title__book">&laquo;Скотный двор&raquo;</h3>
           </figcaption>
-          <img src="images/boocover.jpg" alt="" class="img">
-        </div>
+          <img src="images/boocover.jpg" alt="Скотный двор" class="img">
+        </figure>
         <p class="text__description__column">В повести изображена эволюция общества животных, изгнавших со скотного
-          двора
-          (первоначально называвшегося ферма «Усадьба» или в других переводах — «Господский двор»,
-          «Райский уголок») его предыдущего владельца, жестокого мистера Джонса, от безграничной
+          двора(первоначально называвшегося ферма 	&#171;Усадьба&#187; или в других переводах 	&#8212; «Господский двор»,
+          &#171;Райский уголок&#187;) его предыдущего владельца, жестокого мистера Джонса, от безграничной
           свободы к диктатуре свиньи по кличке Наполеон.</p>
         <p class="text__description__column">В повести Оруэлл показал перерождение революционных принципов и программ,
           то есть постепенный переход от идей всеобщего равенства и построения утопии к диктатуре
-          и тоталитаризму. По мнению А. Бартова, «Скотный двор» — притча, аллегория на революцию
+          и тоталитаризму. По мнению А. Бартова, 	&#171;Скотный двор&#187; 	&#8212; притча, аллегория на революцию
           1917 года и последующие события в России.</p>
       </div>
       <div class="column__right">
-        <div class="signature__right"> <figcaption>
+        <figure class="signature__right">
+          <figcaption>
             <p class="text__center__title__book">Олдос Хаксли</p>
             <h3 class="text__center__title__book">&laquo;451° по Фаренгейту&raquo;</h3>
-            <img src="images/451.jpg" alt="" class="img">
+            <img src="images/451.jpg" alt="451 По Фаренгейту" class="img">
           </figcaption>
-        </div>
+        </figure>
         <p class="text__description__column">Мастер мирового масштаба, совмещающий в литературе несовместимое.
-          Создатель таких ярчайших шедевров, как "Марсианские хроники", "451° по Фаренгейту",
-          "Вино из одуванчиков" и так далее и так далее. Лауреат многочисленных премий.
+          Создатель таких ярчайших шедевров, как 	&#171;Марсианские хроники&#187;, 	&#171;451° по Фаренгейту&#187;,
+          &#171;Вино из одуванчиков&#187; и так далее и так далее. Лауреат многочисленных премий.
           Это Рэй Брэдбери. Его увлекательные истории прославили автора не только как
           непревзойденного рассказчика, но и как философа, мыслителя и психолога.
           Магический реализм его прозы, рукотворные механизмы радости, переносящие человека
           из настоящего в волшебные миры детства, чудо приобщения к великой тайне Литературы,
           щедро раздариваемое читателю, давно вывели Брэдбери на высокую классическую орбиту.
-          Собранные в этой книге произведения - достойное тому подтверждение.</p>
+          Собранные в этой книге произведения 	&#8211; достойное тому подтверждение.</p>
       </div>
 
       <div class="column__left">
-        <div class="signature__left">
+        <figure class="signature__left">
           <figcaption>
             <p class="text__center__title__book">Уильям Голдинг</p>
             <h3 class="text__center__title__book">&laquo;Повелитель мух&raquo;</h3>
           </figcaption>
-          <img src="images/ug.jpg" alt="Повелитель мух" class="img" width="200">
-        </div>
-        <p class="text__description__column">«Повелитель мух» — первый опубликованный роман
+          <img src="images/ug.jpg" alt="Повелитель мух" class="img">
+        </figure>
+        <p class="text__description__column">	&#171;Повелитель мух&#187; &#8212; первый опубликованный роман
           английского писателя, лауреата Нобелевской премии Уильяма Голдинга.
-          Двадцать один отказ в публикации и долгожданное «да» от издательства
-          Faber & Faber в 1954 году. Только одно но — просьба вычеркнуть из начала
+          Двадцать один отказ в публикации и долгожданное &#171;да&#187; от издательства
+          Faber & Faber в 1954 году. Только одно но &#8212; просьба вычеркнуть из начала
           аллегорического произведения сцены о кошмарах ядерной войны.
-          И в 60-х годах роман уже в программах школ и колледжей.</p>
+          И в 60	&#8211;х годах роман уже в программах школ и колледжей.</p>
         <p class="text__description__column">Двое мальчиков в грязной и оборванной
           одежде лазили в джунглях рядом с обломками самолета. Авиакатастрофа.
           Пилот исчез. Как и другие дети с рейса. Их всех должны были эвакуировать
-          из захваченного войной Лондона, но что-то пошло не так. Выйдя к морю,
+          из захваченного войной Лондона, но что	&#8211;то пошло не так. Выйдя к морю,
           мальчики кинулись дуть в морскую раковину в надежде, что на странный звук
           отреагируют другие выжившие. Если они есть...</p>
       </div>
@@ -174,21 +186,27 @@
     <section class="bottom_description">
       <h2>Связаться с нами</h2>
       <ul class="bottom__list">
-        <li class="bottom__item">&#9742;<a href="" class="bottom__link">+7&nbsp;987&nbsp;476&nbsp;43&nbsp;23</a></li>
         <li class="bottom__item">
-          <img src="icons/mail.png" alt="почта">
-          <a href="" class="bottom__link">all_know@gmail.com</a></li>
-        <li class="bottom__item"><a href="" class="bottom__link">
-            <img src="icons/house.png" alt="сайт" width="24" height="24" />сайт.ru</a></li>
+          <img src="icons/phone.png" alt="Телефон" class="size__icons">
+          <a href="" class="bottom__link">+7&nbsp;987&nbsp;476&nbsp;43&nbsp;23</a>
+        </li>
+        <li class="bottom__item">
+          <a href="" class="bottom__link">
+            <img src="icons/mail.png" alt="почта" class="size__icons">all_know@gmail.com</a>
+        </li>
+        <li class="bottom__item">
+          <a href="" class="bottom__link">
+            <img src="icons/house.png" alt="сайт" class="size__icons">сайт.ru</a>
+        </li>
       </ul>
 
-      <p class="bottom__text">Подпишись на нас</p>
+      <p class="bottom__text">Подпишись на нас.</p>
       <ul class="bottom__list">
         <li class="bottom__item"><a href="" class="bottom__link">
-            <img src="images/vk-64x64.png" alt="vk">
+            <img src="icons/vk.png" alt="vk" class="size__icons">
           </a></li>
         <li class="bottom__item"><a href="" class="bottom__link">
-            <img src="images/whatsapp-64x64.png" alt="watsap">
+            <img src="icons/tel.png" alt="telegramm" class="size__icons">
           </a></li>
       </ul>
     </section>
@@ -197,17 +215,17 @@
       <nav class="footer__menu">
         <ul class="footer__list">
           <li class="footer__item"><a href="" class="footer__link">
-              <img src="icons/tvit.png" alt="Твитер" width="20%">твитнуть</a></li>
+              <img src="icons/twitter.png" alt="Твитер" class="size__icons">твитнуть</a></li>
           <li class="footer__item"><a href="" class="footer__link">
-              <img src="icons/vk.png" alt="Вконтакте" width="20%">поделиться</a></li>
+              <img src="icons/vk.png" alt="Вконтакте" class="size__icons">поделиться</a></li>
         </ul>
-        <span class="footer__list">
-          <p class="footer__item__two">&copy;Всезнай&nbsp;<a href="#">Сообщить о нарушениях</a></p>
-        </span>
+        <p class="footer__list">
+          <span class="footer__item">&copy;Всезнай&nbsp;<a href="#" class="menu__link">Сообщить о нарушениях</a></span>
+        </p>
       </nav>
     </footer>
-
   </div>
+
 </body>
 
 </html>

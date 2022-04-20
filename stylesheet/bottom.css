@@ -1,5 +1,4 @@
 .bottom_description {
-  width: 100%;
   margin-top: 1em;
   display: flex;
   align-items: center;
@@ -10,7 +9,6 @@
 }
 
 .bottom__list {
-  height: 100%;
   display: flex;
   list-style: none;
   margin: 0;
@@ -25,9 +23,9 @@
 .bottom__link {
   text-transform: uppercase;
   text-decoration: none;
-  color: rgb(19, 16, 193);
+  color: rgb(0, 0, 0);
 }
 
 .bottom__link:hover {
-  color: rgba(14, 20, 109, 0.469);
+  color: rgba(75, 76, 81, 0.743);
 }

@@ -6,12 +6,11 @@
 }
 
 .main__title__text {
-  text-shadow: rgb(0, 0, 0) 5px 5px 0, rgb(0, 0, 0) 5px 5px 0,
-    rgb(0, 0, 0) 5px 5px 0, rgb(0, 0, 0) 5px 5px 0;
+  text-shadow: rgb(0, 0, 0) 1px 15px 10Px, rgb(0, 0, 0) 1px 15px 10Px,
+    rgb(0, 0, 0) 1px 15px 10Px, rgb(0, 0, 0) 1px 15px 10Px;
 }
 
 .text__description__column {
-  font-family: 'Times New Roman', Times, serif;
   font-size: 19px;
   line-height: 1.5em;
   margin: 1em;

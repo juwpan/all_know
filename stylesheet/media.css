@@ -1,0 +1,160 @@
+/* 1280 */
+@media screen and (max-width: 1280px) {
+   .column__right {
+      float: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+}
+
+
+/* 800 */
+@media screen and (max-width: 800px) {
+   .header {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .menu__list {
+      margin: 1em;
+   }
+
+   .menu__left {
+      width: 100%;
+   }
+
+   .menu__right {
+      width: 100%;
+   }
+
+   .main__title {
+      height: 50vh;
+      padding-top: 2em;
+   }
+
+   .main_description {
+      padding: 5em;
+   }
+
+   div.column__right {
+      padding-right: 1em;
+      padding-left: 1em;
+      width: 100%;
+   }
+
+   div.column__left {
+      float: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding-right: 1em;
+      padding-left: 1em;
+   }
+
+
+   .columns {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+
+}
+
+
+
+
+/* 640 */
+@media screen and (max-width: 640px) {
+
+   .main__title {
+      height: 40vh;
+      padding-top: 4em;
+   }
+
+   .main__title {
+      font-size: 40px;
+   }
+
+   .main_description {
+      padding: 2em;
+   }
+
+   .main__description_text {
+      font-size: 17px;
+   }
+}
+
+/* 940 */
+@media screen and (max-width: 940px) {
+   .img__left {
+      width: 90%;
+   }
+
+   .img__right {
+      width: 90%;
+   }
+}
+
+/* 485 */
+@media screen and (max-width: 485px) {
+   .bottom__list {
+      flex-direction: column;
+   }
+
+   .main_description {
+      margin: auto;
+   }
+
+   h2.main__description_text {
+      font-size: 18px;
+   }
+
+   p.main__description_text {
+      font-size: 18px;
+      line-height: 1.5em;
+   }
+}
+
+/* 455 */
+@media screen and (max-width: 455px) {
+
+   .phone {
+      display: none;
+   }
+
+   .menu__list {
+      font-size: 15px;
+   }
+
+   .main__title {
+      height: 40vh;
+      font-size: 30px;
+      padding-top: 5em;
+   }
+
+   .main_description {
+      padding: 1em;
+   }
+
+   .text__description__table {
+      font-size: 17px;
+   }
+
+   .text__right {
+      text-align: center;
+      font-size: 17px;
+   }
+
+   .text__left {
+      font-size: 17px;
+   }
+   .footer__item {
+      padding-left: 3em;
+  }
+}

@@ -1,0 +1,19 @@
+.columns {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px outset rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+.column__left {
+  float:left;
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+}
+
+.column__right {
+  float:right;
+  width: 40%;
+  background-color: rgb(255, 255, 255);
+}

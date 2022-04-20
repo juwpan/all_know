@@ -1,0 +1,31 @@
+.signature__right {
+  float: right;
+  border: 1px outset black;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  padding: 10px;
+  margin: 1em;
+  background: #ffffff;
+}
+
+.signature__right figcaption {
+  margin: 1em;
+}
+
+.signature__left {
+  vertical-align: top;
+  float: left;
+  border: 1px outset black;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  padding: 0;
+  margin: 1em;
+  background: #ffffff;
+}
+
+.signature__left figcaption {
+  margin: auto; 
+}
+
+.img {
+  margin: 2em;
+}
+

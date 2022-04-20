@@ -1,0 +1,27 @@
+.main__title {
+  background-color: green;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  font: 4em Arial, sans-serif;
+}
+
+.main_description {
+  height: 65vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  padding: 10em;
+}
+
+.main_subtitle {
+  margin-top: auto;
+  display: flex;
+}

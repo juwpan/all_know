@@ -1,0 +1,36 @@
+.button__subtitle {
+  border: 5px outset rgba(199, 194, 194, 0.354);
+  border-radius: 6px;
+  padding: 0.1em;
+  width: 230px;
+  height: 68px;
+  background-color: rgb(40, 171, 93);
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 5em;
+}
+
+.button__description_text:hover {
+  color: rebeccapurple
+}
+
+
+.button__description_text {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1em;
+  font-size: 20px;
+  text-align: center;
+}
+
+.button__link {
+  text-decoration: none;
+}
+
+.arrow__to__down {
+  display: block;
+  text-align: center;
+  margin-top: 1em;
+  font-size: 30px;
+}

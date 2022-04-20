@@ -1,0 +1,20 @@
+body {
+  position: relative;
+}
+
+a{
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.741);
+}
+
+
+.page {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

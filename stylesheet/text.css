@@ -1,0 +1,31 @@
+.main__description_text {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 2em;
+  font-size: 20px;
+  text-align: center;
+}
+
+.main__title__text {
+  text-shadow: rgb(0, 0, 0) 5px 5px 0, rgb(0, 0, 0) 5px 5px 0,
+    rgb(0, 0, 0) 5px 5px 0, rgb(0, 0, 0) 5px 5px 0;
+}
+
+.text__description__column {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 19px;
+  line-height: 1.5em;
+  margin: 1em;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  text-indent: 20px;
+}
+
+.text__center__title__book {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  margin-bottom: -0.5em;
+}
